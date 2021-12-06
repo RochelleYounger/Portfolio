@@ -3,38 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rochelle Younger - Web Developer</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Rochelle Younger - Web Developer</title>
   </head>
   <body>
     <!-- navigation -->
     <header>
-      <h1>Rochelle Younger</h1>
+      <h1>
+        <a href="/">Rochelle Younger</a>
+      </h1>
       <nav>
         <ul>
           <li>
-            <a href="">Bio</a>
+            <a href="#bio">Bio</a>
           </li>
           <li>
-            <a href="">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <!-- hero/jumbotron -->
-    <div>
-      <h2>Knowledge is Beautiful</h2>
-    </div>
+    <section class="hero">
+      <div>
+        <h2>Knowledge is Beautiful</h2>
+      </div>
+    </section>
 
     <!-- bio section -->
-    <section>
+    <section id="bio" class="bio">
       <h3>Bio</h3>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ducimus 
         exercitationem porro ut deserunt fugiat iusto esse, magni cumque debitis 
@@ -43,7 +47,7 @@
     </section>
 
     <!-- skills section -->
-    <section>
+    <section id="skills" class="items">
       <h3>Skills</h3>
       <ul>
         <li>
@@ -68,7 +72,7 @@
     </section>
 
     <!-- projects section -->
-    <section>
+    <section id="projects" class="items">
       <h3>Projects</h3>
       <ul>
         <li>
@@ -87,9 +91,9 @@
     </section>
 
     <!-- contact section -->
-    <section>
+    <section id="contact" class="contact">
       <h3>Contact</h3>
-      <div>
+      <div class="items">
         <ul>
           <li>
             <a href="">Phone #</a>

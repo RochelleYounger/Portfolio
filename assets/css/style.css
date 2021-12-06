@@ -1,0 +1,174 @@
+:root {
+  --white: white;
+  --purple: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace, Helvetica, Arial, sans-serif;
+}
+
+/* HEADER STYLES START */
+header {
+  padding: 20px 35px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  z-index: 10;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 0 10px rgba(55, 10, 85, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.7vw;
+}
+
+header nav ul li a:hover {
+  background: white;
+  color: grey;
+  border-radius: 15px;
+}
+/* HEADER STYLES END */
+
+section {
+  display: flex;
+  padding: 60px;
+}
+
+/* JUMBOTRON STYLES */
+.hero {
+  background-image: url("../images/jumbotron-bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero div {
+  padding: 0;
+  border: none;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display:flex;
+  font-size: 45px;
+  color: white;
+  text-shadow: 0 0 10px rgba(55, 10, 85, 0.5);
+}
+
+/* SECTION BIO */
+.bio {
+  display: flex;
+  justify-content: space-around;
+}
+.bio h3 {
+  font-size: 48px;
+  border-right: 3px solid;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  margin: auto 20px auto;
+  width: 40%;
+  border-color: rgb(124, 26, 204);
+}
+
+.bio p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25;
+  border: 3px solid transparent;
+  padding: 10px 10px 10px 10px;
+  margin: 30px 30px;
+}
+
+/* SKILLS */
+.items h3 {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: black;
+  padding-bottom: 20px;
+  margin: auto 20px auto;
+  width: 100%;
+  border-color: rgb(124, 26, 204);
+}
+
+.items ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.items ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.7vw;
+}
+
+.items ul li a:hover {
+  background: white;
+  color: grey;
+  border-radius: 15px;
+}
+
+/* PROJECTS */
+.projects h3 {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  margin: auto 20px auto;
+  width: 100%;
+  border-color: rgb(124, 26, 204);
+}
+
+/* CONTACTS */
+.contact h3 {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  margin: auto 20px auto;
+  width: 100%;
+  border-color: rgb(124, 26, 204);
+}
